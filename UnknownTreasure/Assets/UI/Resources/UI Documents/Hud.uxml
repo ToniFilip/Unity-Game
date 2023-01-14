@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Resources/UI%20Documents/Styles/buildingMenu.uss?fileID=7433441132597879392&amp;guid=f4a309861e72d9c4f9b232468c5d33e9&amp;type=3#buildingMenu" />
+    <ui:VisualElement name="screen" style="flex-grow: 1;">
+        <ui:VisualElement name="top" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="left" style="flex-grow: 1; width: 30px;">
+                <ui:VisualElement name="resourceContainer" style="width: auto; border-left-width: 30px; border-right-width: 30px; border-top-width: 30px; border-bottom-width: 30px; flex-wrap: nowrap;">
+                    <HudElements.ResourceCount value="0" width="150" fill-color="#FF000000" img-color="#540603FF" name="wood" style="width: 150px;" />
+                    <HudElements.ResourceCount width="150" img-color="#635E62FF" name="stone" style="width: 150px;" />
+                    <HudElements.ResourceCount width="150" img-color="#D200FFFF" name="magic" style="width: 150px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="mid" style="flex-grow: 1; align-items: center;">
+                <HudElements.HealthBar width="800" height="20" fill-color="#00FF05FF" style="top: 30px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="right" style="flex-grow: 1; width: 30px; align-items: flex-end;">
+                <ui:VisualElement style="margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; background-color: rgba(53, 59, 72, 0.39); padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; width: 320px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="label1" class="fontHeader" style="-unity-text-align: upper-right;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="label2" class="fontHeader" style="-unity-text-align: upper-right;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom" style="flex-grow: 1; flex-direction: row; align-items: auto;">
+            <ui:VisualElement name="inventorySlotsContainer" style="width: 250px; height: 250px; justify-content: space-between; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;">
+                <ui:VisualElement name="top" style="flex-grow: 0; flex-direction: row; flex-wrap: nowrap; height: 50%;" />
+                <ui:VisualElement name="bottom" style="flex-grow: 0; flex-direction: row-reverse; height: 50%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

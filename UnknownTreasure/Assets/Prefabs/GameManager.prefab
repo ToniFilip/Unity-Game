@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1084541402256583680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1084541402256583683}
+  - component: {fileID: 1084541402256583682}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1084541402256583683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084541402256583680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1084541402256583682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084541402256583680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbc808ce5ebaad408caeac84bfe508c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3046863159918363734, guid: 5109c99bc4a8c754d8addc145e3d55c0,
+    type: 3}
+  player: {fileID: 0}
+  treasureTowerHealth: 100
+  isInTower: 0
+  wood: 50
+  stone: 0
+  magic: 0
+  mapGenerator: {fileID: 0}
+  waveSettings:
+    waves: 10
+    maxPauseTime: 20
+    cardinalPointSettings:
+    - cardinalPoint: 0
+      openFromWave: 0
+    - cardinalPoint: 1
+      openFromWave: 0
+    - cardinalPoint: 2
+      openFromWave: 0
+    - cardinalPoint: 3
+      openFromWave: 0
+    enemySettings:
+    - enemyPrefab: {fileID: 3046863159918363735, guid: 5109c99bc4a8c754d8addc145e3d55c0,
+        type: 3}
+      firstWave: 0
+      lastWave: 0
+      wavePeriod: 1
+      burstStrength: 4
+      burstCount: 3
+      burstPeriod: 5
+      burstDelay: 0
+      burstsLeft: 0
+    - enemyPrefab: {fileID: 3046863159918363735, guid: 5afca585e29bdc643b4ddd16251dc569,
+        type: 3}
+      firstWave: 1
+      lastWave: 0
+      wavePeriod: 2
+      burstStrength: 2
+      burstCount: 3
+      burstPeriod: 5
+      burstDelay: 2
+      burstsLeft: 0
+    - enemyPrefab: {fileID: 3046863159918363735, guid: 5109c99bc4a8c754d8addc145e3d55c0,
+        type: 3}
+      firstWave: 8
+      lastWave: 0
+      wavePeriod: 1
+      burstStrength: 1
+      burstCount: 10
+      burstPeriod: 1
+      burstDelay: 1
+      burstsLeft: 0
+  currentWave: -1
+  currentPauseTime: 0
+  enemiesOnMap: 0
+  isMenuOpen: 0

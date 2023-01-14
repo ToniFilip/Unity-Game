@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2845443739798649492
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2930781101135798556, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_Name
+      value: MagicTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: woodCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: magicCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: stoneCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: towerInfo
+      value: This tower automatically generates magic resources, double the amount
+        while you are inside the tower.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: baseMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: d78950da64689d640be3c3471bc82106, type: 2}
+    - target: {fileID: 6228691033659679469, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: magicPerSecond
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.0566406
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13457537
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.33327
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073677159828195422, guid: b10c3544be2275e41b6c4afbca18e3f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b10c3544be2275e41b6c4afbca18e3f9, type: 3}

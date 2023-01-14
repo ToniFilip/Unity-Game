@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Resources/UI%20Documents/Styles/buildingMenu.uss?fileID=7433441132597879392&amp;guid=f4a309861e72d9c4f9b232468c5d33e9&amp;type=3#buildingMenu" />
+    <Style src="project://database/Assets/UI/Resources/ElementBMStyleSheet.uss?fileID=7433441132597879392&amp;guid=eebe0d7b626868a4f8189180ecdabc45&amp;type=3#ElementBMStyleSheet" />
+    <Style src="project://database/Assets/UI/Resources/UI%20Documents/Styles/scrollSheet.uss?fileID=7433441132597879392&amp;guid=bcd46bcaae9247548b0787de9fd1632b&amp;type=3#scrollSheet" />
+    <ui:VisualElement name="buildingMenu" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="background" class="background" style="width: 50%; height: 70%;">
+            <ui:VisualElement name="topBar" style="height: 40px; flex-direction: row; align-items: center; border-bottom-color: rgb(47, 54, 64); border-bottom-width: 2px; justify-content: space-between;">
+                <ui:Label text="Building Menu" display-tooltip-when-elided="true" class="fontHeader" style="margin-left: 10px; font-size: 28px; -unity-text-align: middle-left;" />
+                <ui:Button text="X" display-tooltip-when-elided="true" name="exit" style="width: 30px; height: 30px;" />
+            </ui:VisualElement>
+            <ui:ScrollView name="scrollMenu" class="background" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

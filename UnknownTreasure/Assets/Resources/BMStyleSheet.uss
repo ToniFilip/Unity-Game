@@ -1,0 +1,12 @@
+.background {
+    flex-grow: 1;
+    background-color: rgb(53, 59, 72);
+    border-left-color: rgb(47, 54, 64);
+    border-right-color: rgb(47, 54, 64);
+    border-top-color: rgb(47, 54, 64);
+    border-bottom-color: rgb(47, 54, 64);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}

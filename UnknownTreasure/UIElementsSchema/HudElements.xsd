@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:editor="UnityEditor.UIElements" xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.Overlays" elementFormDefault="qualified" targetNamespace="HudElements" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="BMElementType">
+    <xs:complexContent mixed="false">
+      <xs:restriction base="engine:VisualElementType">
+        <xs:attribute default="" name="name" type="xs:string" use="optional" />
+        <xs:attribute default="" name="view-data-key" type="xs:string" use="optional" />
+        <xs:attribute default="Position" name="picking-mode" type="engine:VisualElement_picking-mode_Type" use="optional" />
+        <xs:attribute default="" name="tooltip" type="xs:string" use="optional" />
+        <xs:attribute default="None" name="usage-hints" type="engine:VisualElement_usage-hints_Type" use="optional" />
+        <xs:attribute default="0" name="tabindex" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="focusable" type="xs:boolean" use="optional" />
+        <xs:attribute default="" name="class" type="xs:string" use="optional" />
+        <xs:attribute default="" name="content-container" type="xs:string" use="optional" />
+        <xs:attribute default="" name="style" type="xs:string" use="optional" />
+        <xs:attribute default="false" name="selected" type="xs:boolean" use="optional" />
+        <xs:attribute name="image-source" type="xs:string" use="optional" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BMElement" substitutionGroup="engine:VisualElement" xmlns:q1="HudElements" type="q1:BMElementType" />
+  <xs:complexType name="BuildingMenuType">
+    <xs:complexContent mixed="false">
+      <xs:restriction base="engine:VisualElementType">
+        <xs:attribute default="" name="name" type="xs:string" use="optional" />
+        <xs:attribute default="" name="view-data-key" type="xs:string" use="optional" />
+        <xs:attribute default="Position" name="picking-mode" type="engine:VisualElement_picking-mode_Type" use="optional" />
+        <xs:attribute default="" name="tooltip" type="xs:string" use="optional" />
+        <xs:attribute default="None" name="usage-hints" type="engine:VisualElement_usage-hints_Type" use="optional" />
+        <xs:attribute default="0" name="tabindex" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="focusable" type="xs:boolean" use="optional" />
+        <xs:attribute default="" name="class" type="xs:string" use="optional" />
+        <xs:attribute default="" name="content-container" type="xs:string" use="optional" />
+        <xs:attribute default="" name="style" type="xs:string" use="optional" />
+        <xs:attribute default="150" name="width" type="xs:int" use="optional" />
+        <xs:attribute default="150" name="height" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="selected" type="xs:boolean" use="optional" />
+        <xs:attribute default="RGBA(1.000, 0.000, 0.000, 1.000)" name="fill-color" type="xs:string" use="optional" />
+        <xs:attribute default="RGBA(1.000, 0.000, 0.000, 1.000)" name="fill-color-selected" type="xs:string" use="optional" />
+        <xs:attribute name="image-source" type="xs:string" use="optional" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BuildingMenu" substitutionGroup="engine:VisualElement" xmlns:q2="HudElements" type="q2:BuildingMenuType" />
+  <xs:simpleType name="HealthBar_fill-type_Type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Horizontal" />
+      <xs:enumeration value="Vertical" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="HealthBarType">
+    <xs:complexContent mixed="false">
+      <xs:restriction base="engine:VisualElementType">
+        <xs:attribute default="" name="name" type="xs:string" use="optional" />
+        <xs:attribute default="" name="view-data-key" type="xs:string" use="optional" />
+        <xs:attribute default="Position" name="picking-mode" type="engine:VisualElement_picking-mode_Type" use="optional" />
+        <xs:attribute default="" name="tooltip" type="xs:string" use="optional" />
+        <xs:attribute default="None" name="usage-hints" type="engine:VisualElement_usage-hints_Type" use="optional" />
+        <xs:attribute default="0" name="tabindex" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="focusable" type="xs:boolean" use="optional" />
+        <xs:attribute default="" name="class" type="xs:string" use="optional" />
+        <xs:attribute default="" name="content-container" type="xs:string" use="optional" />
+        <xs:attribute default="" name="style" type="xs:string" use="optional" />
+        <xs:attribute default="300" name="width" type="xs:int" use="optional" />
+        <xs:attribute default="50" name="height" type="xs:int" use="optional" />
+        <xs:attribute default="1" name="value" type="xs:float" use="optional" />
+        <xs:attribute default="Horizontal" name="fill-type" xmlns:q3="HudElements" type="q3:HealthBar_fill-type_Type" use="optional" />
+        <xs:attribute default="RGBA(1.000, 0.000, 0.000, 1.000)" name="fill-color" type="xs:string" use="optional" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="HealthBar" substitutionGroup="engine:VisualElement" xmlns:q4="HudElements" type="q4:HealthBarType" />
+  <xs:complexType name="InventorySlotType">
+    <xs:complexContent mixed="false">
+      <xs:restriction base="engine:VisualElementType">
+        <xs:attribute default="" name="name" type="xs:string" use="optional" />
+        <xs:attribute default="" name="view-data-key" type="xs:string" use="optional" />
+        <xs:attribute default="Position" name="picking-mode" type="engine:VisualElement_picking-mode_Type" use="optional" />
+        <xs:attribute default="" name="tooltip" type="xs:string" use="optional" />
+        <xs:attribute default="None" name="usage-hints" type="engine:VisualElement_usage-hints_Type" use="optional" />
+        <xs:attribute default="0" name="tabindex" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="focusable" type="xs:boolean" use="optional" />
+        <xs:attribute default="" name="class" type="xs:string" use="optional" />
+        <xs:attribute default="" name="content-container" type="xs:string" use="optional" />
+        <xs:attribute default="" name="style" type="xs:string" use="optional" />
+        <xs:attribute default="150" name="width" type="xs:int" use="optional" />
+        <xs:attribute default="150" name="height" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="selected" type="xs:boolean" use="optional" />
+        <xs:attribute default="RGBA(1.000, 0.000, 0.000, 1.000)" name="fill-color" type="xs:string" use="optional" />
+        <xs:attribute default="RGBA(1.000, 0.000, 0.000, 1.000)" name="fill-color-selected" type="xs:string" use="optional" />
+        <xs:attribute name="image-source" type="xs:string" use="optional" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InventorySlot" substitutionGroup="engine:VisualElement" xmlns:q5="HudElements" type="q5:InventorySlotType" />
+  <xs:complexType name="ResourceCountType">
+    <xs:complexContent mixed="false">
+      <xs:restriction base="engine:VisualElementType">
+        <xs:attribute default="" name="name" type="xs:string" use="optional" />
+        <xs:attribute default="" name="view-data-key" type="xs:string" use="optional" />
+        <xs:attribute default="Position" name="picking-mode" type="engine:VisualElement_picking-mode_Type" use="optional" />
+        <xs:attribute default="" name="tooltip" type="xs:string" use="optional" />
+        <xs:attribute default="None" name="usage-hints" type="engine:VisualElement_usage-hints_Type" use="optional" />
+        <xs:attribute default="0" name="tabindex" type="xs:int" use="optional" />
+        <xs:attribute default="false" name="focusable" type="xs:boolean" use="optional" />
+        <xs:attribute default="" name="class" type="xs:string" use="optional" />
+        <xs:attribute default="" name="content-container" type="xs:string" use="optional" />
+        <xs:attribute default="" name="style" type="xs:string" use="optional" />
+        <xs:attribute default="0" name="value" type="xs:int" use="optional" />
+        <xs:attribute default="RGBA(1.000, 0.000, 0.000, 1.000)" name="img-color" type="xs:string" use="optional" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ResourceCount" substitutionGroup="engine:VisualElement" xmlns:q6="HudElements" type="q6:ResourceCountType" />
+</xs:schema>

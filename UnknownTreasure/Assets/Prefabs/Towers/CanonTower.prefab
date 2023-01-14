@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1056363727361510946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4870406460643042556, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_Name
+      value: CanonTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967991520005924586, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900787248499192547, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: m_Name
+      value: CanonTowerZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1384006116240273108}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: woodCost
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: magicCost
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: rangeBuff
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: stoneCost
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: towerInfo
+      value: Cannon Towers shoot cannon balls at nearby enemies. At impact, cannon
+        balls damage the area around them. When in the tower, you can control where
+        they shoot, they deal more damage and can shoot faster.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: damageBuff
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: baseMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a351175a21935cd41a0589a1beffb228, type: 2}
+    - target: {fileID: 7037997946689212103, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+        type: 3}
+      propertyPath: fireRateBuff
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 411c641a7f75e024fbc9a0ec75caf82f, type: 3}
+--- !u!4 &556577105448715164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 653495677214477758, guid: 411c641a7f75e024fbc9a0ec75caf82f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1056363727361510946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6954679364966578546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 556577105448715164}
+    m_Modifications:
+    - target: {fileID: 2469431323390408030, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13bc61d905e340a4c8b2b2fb88bd71c5, type: 2}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628393026895655748, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160026854404291789, guid: e12bdf46b3c9f1f47901449df531e38e,
+        type: 3}
+      propertyPath: m_Name
+      value: Cannon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e12bdf46b3c9f1f47901449df531e38e, type: 3}
+--- !u!1 &1278390316813518271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8160026854404291789, guid: e12bdf46b3c9f1f47901449df531e38e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6954679364966578546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6603175846839931730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278390316813518271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114fd86020623b049aaa3af72b4c94f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  amplitude: 0.25
+--- !u!114 &1384006116240273108 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8338140047705003942, guid: e12bdf46b3c9f1f47901449df531e38e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6954679364966578546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278390316813518271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3890b767758516d4ca4942dd05fef813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

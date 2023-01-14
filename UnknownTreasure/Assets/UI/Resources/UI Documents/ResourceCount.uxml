@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Resources/UI%20Documents/Styles/HudResources.uss?fileID=7433441132597879392&amp;guid=52d17cf2096ba7f40847e0935dfb95ba&amp;type=3#HudResources" />
+    <Style src="project://database/Assets/UI/Resources/UI%20Documents/Styles/buildingMenu.uss?fileID=7433441132597879392&amp;guid=f4a309861e72d9c4f9b232468c5d33e9&amp;type=3#buildingMenu" />
+    <ui:VisualElement name="resourcecount" style="flex-grow: 1; flex-direction: row; align-items: center; flex-wrap: nowrap; justify-content: flex-start; white-space: normal;">
+        <ui:IMGUIContainer name="img" style="width: 60px; height: 60px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="label" class="fontHeader" style="flex-grow: 1; -unity-text-align: middle-left; width: 50px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; align-items: flex-start; height: 60px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e90bbd71dbe9a0443973293534459c24
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 5b9d4653d21c85342b86c97ff6138356
+  - enabled: 1
+    path: Assets/Scenes/MapGeneratorDemo.unity
+    guid: b1987df61b5533d4cba4868feaa6e2d6
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
+      type: 2}

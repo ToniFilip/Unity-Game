@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Resources/UI%20Documents/Styles/buildingMenu.uss?fileID=7433441132597879392&amp;guid=f4a309861e72d9c4f9b232468c5d33e9&amp;type=3#buildingMenu" />
+    <ui:VisualElement name="bmelement" style="flex-grow: 1; width: auto; background-color: rgb(43, 43, 43);">
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="bmelementButton" class="background" style="flex-grow: 1; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement name="background" class="background" style="flex-direction: row; flex-grow: 1;">
+                <ui:VisualElement name="towerImage" class="image" style="background-color: rgba(113, 62, 62, 0.52); flex-grow: 1; width: 10%; flex-shrink: 1; max-width: 25%; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+                <ui:VisualElement name="towerCosts" style="flex-grow: 1; width: auto; align-items: flex-start; flex-shrink: 1;">
+                    <HudElements.ResourceCount name="woodCosts" style="flex-grow: 1; width: auto; height: auto; align-items: flex-start; justify-content: center;" />
+                    <HudElements.ResourceCount name="stoneCosts" style="flex-grow: 1; justify-content: center; align-items: auto;" />
+                    <HudElements.ResourceCount name="magicCosts" style="flex-grow: 1; justify-content: center;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="towerInfo" style="flex-grow: 1; width: 70%; align-items: flex-start; flex-shrink: 2; min-width: 50%; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="towerName" class="fontHeader" style="height: 40px; font-size: 28px; flex-grow: 0;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="towerInfo" class="fontNormal" style="flex-grow: 1; white-space: normal; -unity-text-align: middle-left;" />
+                    <ui:VisualElement name="stats" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; width: 100%; padding-left: 1px; padding-right: 10px;">
+                        <ui:Label text="Range&#10;Damage&#10;Firerate" display-tooltip-when-elided="true" name="attributes" class="fontNormal" style="flex-grow: 1; -unity-text-align: middle-right;" />
+                        <ui:Label text="Label" display-tooltip-when-elided="true" name="stats" class="fontNormal" style="flex-grow: 1;" />
+                        <ui:Label text="Label" display-tooltip-when-elided="true" name="buffs" class="fontNormal" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="expensiveNotifier" style="height: 40px; font-size: 18px; white-space: nowrap; -unity-text-align: middle-right; flex-grow: 0; width: 100%; color: rgb(194, 54, 22); padding-right: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>
